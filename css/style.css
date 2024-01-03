@@ -20,9 +20,7 @@
     justify-content: center;
     align-items: center;
     background: url(../Img/bg1.png)center center no-repeat;
-    background-size: cover;
-    
-}
+  }
 
 .box_2{
     width: 100%;
@@ -43,5 +41,30 @@
 .box_2__items:hover{
     transition: opacity 0s;
     opacity: 0;
+
+}
+
+
+@media  screen and (min-width:250px) and (max-width:570px) {
+    .box_1{
+
+        background: url(../Img/bg2_responsive2.jpg)center center no-repeat;
+        background-size: contain;
+    }
+
+    .box_2__items{
+
+        background-size: contain;
+        
+    }
+
+}
+
+
+@media  screen and (min-width:570px) and (max-width:900px) {
+    .box_1{
+
+        background: url(../Img/bg1_responsive1.png)center center no-repeat;
+    }
 
 }
